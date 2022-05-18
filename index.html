@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Formular</title>
+  </head>
+  <body>
+    <h1>Formular - Neujahrsvorsätze für unsere Kunden</h1>
+    <form action="" method="post">
+      <label>
+        Vorname:
+        <input
+          type="text"
+          placeholder=" Vorname eingeben"
+          name="vorname"
+          required
+        />
+      </label>
+      <br />
+
+      <label>
+        Nachname:
+        <input
+          type="text"
+          placeholder="Nachname eingeben"
+          name="nachname"
+          required
+        />
+      </label>
+      <br />
+      <label>
+        Alter:
+        <input
+          type="number"
+          placeholder="Alter eingeben "
+          name="alter"
+          required
+        />
+      </label>
+      <br />
+      <label>
+        Nachricht :
+        <textarea
+          name="Nachricht"
+          placeholder="An uns"
+          id=""
+          cols="30"
+          rows="10"
+          name="nachricht"
+        ></textarea>
+      </label>
+      <br />
+
+      <button type="submit">Sent</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

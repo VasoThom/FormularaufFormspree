@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(202, 173, 131);
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  color: rgb(127, 31, 31);
+  font-size: 4rem;
+}
+label {
+  font-size: xx-large;
+  display: flex;
+}
+input {
+  font-size: large;
+}
+textarea {
+  background-color: rgb(229, 198, 156);
+  font-size: larger;
+}
+button {
+  font-size: 20px;
+  background-color: rgba(130, 102, 9, 0.718);
+  padding: 25px;
+  margin: 20px;
+  cursor: pointer;
+}
+button:hover {
+  color: rgb(227, 209, 209);
+  background-color: black;
+}
+select {
+  background-color: blueviolet;
+  font-size: larger;
+}
+option {
+  background-color: brown;
+}
